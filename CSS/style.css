@@ -1,0 +1,55 @@
+  body{
+    margin:0; 
+	font-family: 'Open Sans', sansserif; 
+  }
+
+img{
+	height: 618px;
+	width: 100%;
+}
+
+.b_img1{
+	background-image: url("http://localhost:81/modrenehjemmeside/modern-website/billeder/20200117_133941.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 618px;
+}
+
+.b_img{
+	background-image: url('http://localhost:81/modrenehjemmeside/modern-website/billeder/20200117_153205.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 618px;
+	background-attachment: fixed;
+}
+
+.fixed_attachment{
+	background-attachment:scroll;
+}
+
+.hej{
+	min-height: 300px;
+}
+
+/*******************************************************************************************************************/
+/*                                                         navbar                                                  */
+/*******************************************************************************************************************/ 
+ ul {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* betyder at de nu bliver pænt sæt ved siden af hinanden ikke har en fast plads*/
+    background-color: #000000;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+  li {
+    display: inline; /* den bruges når man er på IE6-7 for der virker inline-block ikke */
+  }
+  
+  li a {
+    display:inline-block; /* gør at linkene ikke begynder at sætte sig under hinanden */
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
