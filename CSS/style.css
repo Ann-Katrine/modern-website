@@ -1,6 +1,10 @@
 /*******************************************************************************************************************/
 /*                                                standat settings                                                 */
 /*******************************************************************************************************************/
+html{
+	scroll-behavior: smooth;
+}
+
 	body{
 	margin:0; 
 	font-family: 'Open Sans', sansserif; 
@@ -15,20 +19,20 @@
 		margin: 0;
 	}
 
-/*******************************************************************************************************************/
 	img{
-		height: 618px;
+		height: 658px;
 		width: 100%;
 	}
 
-	.b_img1{
+/*******************************************************************************************************************/
+		.b_img1{
 		background-image: url("http://localhost:81/modrenehjemmeside/modern-website/billeder/20200117_133941.jpg");
 		background-repeat: no-repeat;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		height: 618px;
+		height: 658px;
 	}
 
 	.b_img{
@@ -38,7 +42,7 @@
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		height: 618px;
+		height: 658px;
 	}
 
 	.fixed_attachment{
@@ -59,6 +63,33 @@
 		padding-bottom: 15px;
 		
 	}
+
+	.size{
+		font-size: 20px;
+	}
+
+	.row{
+		text-align: center; /* betyder at de nu bliver pænt sæt ved siden af hinanden ikke har en fast plads*/
+	}
+
+	.side{
+		display:inline-block; /* gør at linkene ikke begynder at sætte sig under hinanden */
+		padding-right: 100px;
+		padding-top: 55px;
+	}
+
+	.imgs{
+		height: 130px;
+		width: 130px;
+	}
+
+/***********************************/
+/*        make navbar sticky       */
+/***********************************/
+.scrolling-box{
+	//overflow-y: scroll;
+	
+}
 
 /*******************************************************************************************************************/
 /*                                                         navbar                                                  */
@@ -87,12 +118,12 @@
 /*        make navbar sticky       */
 /***********************************/
 
-  .content{
-    padding: 0;
-  }
+	.content{
+		padding: 0;
+	}
 
-  .sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+	.sticky{
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
